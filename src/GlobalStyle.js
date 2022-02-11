@@ -11,6 +11,12 @@ const GlobalStyle = createGlobalStyle`
     font-family: 'Rubik', sans-serif;
     font-size: 1rem;
   }
+
+  button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
 `;
 
 export default GlobalStyle;

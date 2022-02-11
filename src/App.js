@@ -2,13 +2,13 @@
 import GlobalStyle from "./GlobalStyle";
 
 // Container
-import Comments from "./containers/Comments";
+import CommentSection from "./containers/CommentSection";
 
 const App = () => {
   return (
     <>
       <GlobalStyle />
-      <Comments />
+      <CommentSection />
     </>
   );
 };
